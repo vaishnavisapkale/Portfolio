@@ -83,27 +83,6 @@ export function ProjectCard({
             <div className="w-full h-48 bg-muted" />
           )}
         </Link>
-        {links && links.length > 0 && (
-          <div className="absolute top-2 right-2 flex flex-wrap gap-2">
-            {links.map((link, idx) => (
-              <Link
-                href={link.href}
-                key={idx}
-                target="_blank"
-                rel="noopener noreferrer"
-                onClick={(e) => e.stopPropagation()}
-              >
-                <Badge
-                  className="flex items-center gap-1.5 text-xs bg-black text-white hover:bg-black/90"
-                  variant="default"
-                >
-                  {link.icon}
-                  {link.type}
-                </Badge>
-              </Link>
-            ))}
-          </div>
-        )}
       </div>
       <div className="p-6 flex flex-col gap-3 flex-1">
         <div className="flex items-start justify-between gap-2">
@@ -135,6 +114,26 @@ export function ProjectCard({
                 {tag}
               </Badge>
             ))}
+            {links && links.length > 0 && (
+              <div className="flex gap-2 mt-4">
+                {links.map((link, idx) => (
+                  <Link
+                    key={idx}
+                    href={link.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Badge
+                      variant="outline"
+                      className="flex bg-white text-black items-center gap-1.5 px-2 py-1 transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md hover:bg-neutral-100 active:translate-y-0 active:shadow-sm"
+                    >
+                      {link.icon}
+                      {link.type}
+                    </Badge>
+                  </Link>
+                ))}
+              </div>
+            )}
           </div>
         )}
       </div>
