@@ -11,7 +11,7 @@ export const DATA = {
   description:
     "Software Engineer building full-stack applications, and autonomous AI agents.",
   summary: `
-I'm a Junior software Developer with 1.3 years of experience building modern web applications. 
+Software Developer with 1.3 years of experience building modern web applications. 
 Currently, I'm focused on AI engineering, building AI agents, developer tools, and LLM-powered applications while 
 exploring Context Engineering, MCP, and autonomous agent systems.`,
   avatarUrl: "/me.png",
@@ -77,12 +77,12 @@ exploring Context Engineering, MCP, and autonomous agent systems.`,
       href: "https://atomic.finance",
       badges: [],
       location: "Pune",
-      title: "Junior Software Developer",
+      title: "Software Developer",
       logoUrl: "/harjai.png",
       start: "Feb 2024",
       end: "May 2025",
       description:
-        "Worked as a Junior Developer on enterprise web applications using Angular, Java, Spring Boot, and REST APIs. Built reusable frontend components, integrated backend services, contributed to the Mystique low-code/no-code platform by developing modules that enabled users to build applications through drag-and-drop workflows.",
+        "Worked as a Software Developer on enterprise web applications using Angular, Java, Spring Boot, and REST APIs. Built reusable frontend components, integrated backend services, contributed to the Mystique low-code/no-code platform by developing modules that enabled users to build applications through drag-and-drop workflows.",
     },
   ],
   education: [

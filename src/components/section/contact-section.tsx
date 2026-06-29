@@ -4,7 +4,7 @@ import { DATA } from "@/data/resume";
 
 export default function ContactSection() {
   return (
-    <div className="border rounded-xl p-10 relative">
+    <div className="border rounded-xl p-10 mt-10 relative">
       <div className="absolute -top-4 border bg-primary z-10 rounded-xl px-4 py-1 left-1/2 -translate-x-1/2">
         <span className="text-background text-sm font-medium">Contact</span>
       </div>
@@ -20,11 +20,6 @@ export default function ContactSection() {
         /> */}
       </div>
       <div className="relative flex flex-col items-center gap-4 text-center">
-
-        {/* <p className="mx-auto max-w-lg text-muted-foreground">
-    Feel free to reach out.
-  </p> */}
-
         <Link
           href={`mailto:${DATA.contact.email}`}
           className="text-lg underline font-medium text-primary hover:underline underline-offset-4 hover:shadow-lg hover:-translate-y-0.5"
@@ -32,13 +27,13 @@ export default function ContactSection() {
           {DATA.contact.email}
         </Link>
 
-  <Link
-    href="/Vaishnavi_Sapkale_resume.pdf"
-    download
-    className="inline-flex items-center gap-2 rounded-lg underline px-4 py-2  text-sm text-primary transition-all duration-200  hover:shadow-lg hover:-translate-y-0.5"
-  >
-    Download Resume
-  </Link>
+        <Link
+          href="/Vaishnavi_Sapkale_resume.pdf"
+          download
+          className="inline-flex items-center gap-2 rounded-lg underline px-4 py-2  text-sm text-primary transition-all duration-200  hover:shadow-lg hover:-translate-y-0.5"
+        >
+          Download Resume
+        </Link>
       </div>
     </div>
   );
