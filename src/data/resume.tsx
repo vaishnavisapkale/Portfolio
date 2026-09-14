@@ -161,7 +161,37 @@ exploring Context Engineering, MCP, and autonomous agent systems.`,
       ],
       image: "",
       video: "/videos/CEX.mp4",
-    }
+    },
+     {
+      title: "Voice Ai Agent",
+      href: "https://ai-voice-agent-baseversion.vercel.app/",
+      dates: "September 2026 - Present",
+      active: true,
+      description:
+        "A base AI voice agent built to understand the fundamentals of voice AI. Records voice in the browser, converts speech to text using Gemini, generates an AI response, and converts the response back to speech using the browser's SpeechSynthesis API.",
+      technologies: [
+        "Typescript",
+        "Node.js",
+        "Express",
+        "React",
+        "Gemini"
+      ],
+      links: [
+
+        {
+          type: "Website",
+          href: "https://ai-voice-agent-baseversion.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+          {
+          type: "Source",
+          href: "https://github.com/vaishnavisapkale/AI-Voice-Agent",
+          icon: <Icons.github className="size-3" />,
+        }
+      ],
+      image: "/voice-ai.png",
+      video: "",
+    },
   ],
   hackathons: [
     {
