@@ -170,11 +170,10 @@ exploring Context Engineering, MCP, and autonomous agent systems.`,
       description:
         "A base AI voice agent built to understand the fundamentals of voice AI. Records voice in the browser, converts speech to text using Gemini, generates an AI response, and converts the response back to speech using the browser's SpeechSynthesis API.",
       technologies: [
-        "Typescript",
-        "Node.js",
         "Express",
+        "Typescript",
         "React",
-        "Gemini"
+        "Gemini",
       ],
       links: [
 
