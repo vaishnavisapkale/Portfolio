@@ -28,7 +28,7 @@ export default function ContactSection() {
         </Link>
 
         <Link
-          href="/Vaishnavi_Sapkale_resume.pdf"
+          href="/Vaishnavi_Sapkale.pdf"
           download
           className="inline-flex items-center gap-2 rounded-lg underline px-4 py-2  text-sm text-primary transition-all duration-200  hover:shadow-lg hover:-translate-y-0.5"
         >

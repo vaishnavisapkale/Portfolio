@@ -34,7 +34,7 @@ exploring Context Engineering, MCP, and autonomous agent systems.`,
 
   ],
   navbar: [
-    { href: "/Vaishnavi_Sapkale_resume.pdf", icon: FileDown, label: "Download Resume" },
+    { href: "/Vaishnavi_Sapkale.pdf", icon: FileDown, label: "Download Resume" },
   ],
   contact: {
     email: "sapkale.vaishnavi.dev@gmail.com",
