@@ -11,7 +11,7 @@ export const DATA = {
   description:
     "Software Engineer building full-stack applications, and autonomous AI agents.",
   summary: `
-Software Developer with 1.3 years of experience building modern web applications. 
+Software Developer with around 2 years of experience building modern web applications. 
 Currently, I'm focused on AI engineering, building AI agents, developer tools, and LLM-powered applications while 
 exploring Context Engineering, MCP, and autonomous agent systems.`,
   avatarUrl: "/me.png",
