@@ -1,4 +1,5 @@
 import { Icons } from "@/components/icons";
+import Navbar from "@/components/navbar";
 import { FileDown } from "lucide-react";
 
 
@@ -16,25 +17,24 @@ Currently, I'm focused on AI engineering, building AI agents, developer tools, a
 exploring Context Engineering, MCP, and autonomous agent systems.`,
   avatarUrl: "/me.png",
   skills: [
-    { name: "TypeScript" },
-    { name: "JavaScript" },
-    { name: "Node.js" },
-    { name: "Express.js" },
-    { name: "React" },
-    { name: "Redis" },
-    { name: "AI Agents" },
-    { name: "Context Engineering" },
-    { name: "LLM tool calling" },
-    { name: "MCP" },
-    { name: "PostgreSQL" },
-    { name: "MongoDB" },
-    {name: "Web Socket"},
-    { name: "Git" },
-    { name: "REST APIs" },
-
+  { name: "TypeScript" },
+  { name: "JavaScript" },
+  { name: "Node.js" },
+  { name: "Express.js" },
+  { name: "Redis" },
+  { name: "WebSockets" },
+  { name: "REST APIs" },
+  { name: "PostgreSQL" },
+  { name: "MongoDB" },
+  { name: "React" },
+  { name: "AI Agents" },
+  { name: "LLM Tool Calling" },
+  { name: "Context Engineering" },
+  { name: "MCP" },
+  { name: "Git" },
   ],
   navbar: [
-    { href: "/Vaishnavi_Sapkale.pdf", icon: FileDown, label: "Download Resume" },
+    { href: "/Vaishnavi_Sapkale.pdf", icon: FileDown, label: "Resume" },
   ],
   contact: {
     email: "sapkale.vaishnavi.dev@gmail.com",
@@ -51,21 +51,18 @@ exploring Context Engineering, MCP, and autonomous agent systems.`,
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/vaishnavi-sapkale/",
         icon: Icons.linkedin,
-
         navbar: true,
       },
       X: {
         name: "X",
         url: "https://x.com/VaishnaviS_dev",
         icon: Icons.x,
-
         navbar: true,
       },
       email: {
         name: "Send Email",
         url: "mailto:sapkale.vaishnavi.dev@gmail.com",
         icon: Icons.email,
-
         navbar: false,
       },
     },
