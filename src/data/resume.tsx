@@ -70,13 +70,13 @@ exploring Context Engineering, MCP, and autonomous agent systems.`,
 
   work: [
     {
-      company: "Harjai Computers Pvt Ltd",
+      company: "Bajaj General Insurence Pvt Ltd",
       href: "https://atomic.finance",
       badges: [],
       location: "Pune",
-      title: "Software Developer",
-      logoUrl: "/harjai.png",
-      start: "Feb 2024",
+      title: "Junior Software Developer",
+      logoUrl: "/bajaj.png",
+      start: "Dec 2023",
       end: "May 2025",
       description:
         "Worked as a Software Developer on enterprise web applications using Angular, Java, Spring Boot, and REST APIs. Built reusable frontend components, integrated backend services, contributed to the Mystique low-code/no-code platform by developing modules that enabled users to build applications through drag-and-drop workflows.",
